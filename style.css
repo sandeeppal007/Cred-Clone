@@ -6,11 +6,9 @@
 
 html{
       font-family: 'Gilroy';
-      /* background-color: rgb(15, 15, 15); */
+ 
       color: aliceblue;
-      /* margin: 0;
-      padding: 0;
-      box-sizing: border-box; */
+ 
       overflow-x: hidden;
     
 }
@@ -22,9 +20,7 @@ body{
 }
 
 header{
-    /* display: flex; */
-    /* justify-content: center; */
-    /* justify-content: space-around; */
+ 
     align-items: center;
     margin: 4rem;
     
@@ -79,28 +75,8 @@ nav{
  
    
 }
-nav .CredXIpl div {
-    /* position: relative; */
-}
-nav .CredXIpl div .new{
-    /* background-color: rgb(74, 125, 58);
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-   border-radius: 5px;
-    position: absolute;
-    left: 20%;
-    bottom: 115%;
-    font-size: .8rem;
-    width: 60%; */
-    /* right: 100%; */
-    
- 
-    
 
-}
+
 
 
 .subInfo{
@@ -601,8 +577,7 @@ App icon
 
 .heading h2{
     font-size: 1rem;
-    /* word-break: break-word; */
-    /* display: inline-block; */
+
     width: 300px;
     text-align: center;
  
@@ -633,15 +608,6 @@ App icon
 
 }
 
-/* display: flex; */
-/* justify-content: center; */
-/* align-items: center; */
-/* flex-direction: column; */
-/* background-color: rgb(39, 39, 39); */
-/* width: 100vw; */
-/* height: 4rem; */
-/* font-size: 1.5rem; */
-/* gap: 10px; */
 
 
 .subInfo{
@@ -663,11 +629,7 @@ flex-wrap: wrap;
 
 
 header{
-    /* display: flex; */
-    /* justify-content: center; */
-    /* justify-content: space-around; */
-    /* align-items: center; */
-    /* margin: 4rem; */
+
     
 font-size: .8rem;
 }
@@ -705,11 +667,9 @@ header{
 
 nav{
     display: flex;
-    /* justify-content: space-between; */
+
     align-items: center;
-    /* justify-content: space-around; */
-    /* width:479px;
-    margin: 0px; */
+
     margin: 0;
     justify-content: flex-start;
 
@@ -720,12 +680,7 @@ nav{
 
  nav .CredXIpl{
      color: aliceblue;
-     /* display: flex; */
-     /* flex-direction: row; */
-     /* justify-content: center; */
-     /* align-items: center; */
-    /* justify-content: space-between; */
-    /* gap: 3rem; */
+
  
    
 }
@@ -745,7 +700,7 @@ nav .CredXIpl div .new{
     bottom: 115%;
     font-size: .8rem;
     width: 60%;
-    /* right: 100%; */
+
     
  
     
@@ -766,13 +721,9 @@ section #phone-img{
 
 
 #phones-img div{
-/*     
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: row; */
+
     position: relative; 
-    /* margin-top: rem; */
+
    width: 100%;
 
 
