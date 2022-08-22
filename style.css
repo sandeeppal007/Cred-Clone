@@ -1,0 +1,1141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+      font-family: 'Gilroy';
+      /* background-color: rgb(15, 15, 15); */
+      color: aliceblue;
+      /* margin: 0;
+      padding: 0;
+      box-sizing: border-box; */
+      overflow-x: hidden;
+    
+}
+body{
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png);
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    align-items: center;
+    margin: 4rem;
+    
+
+}
+
+nav li{
+    list-style: none;
+ 
+}
+nav .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+
+
+}
+
+nav .logo .iplLogo{
+  width: 24%;
+
+
+    
+}
+.credlogo{
+    width: 53%;
+    height: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+   
+
+}
+
+
+
+ nav .CredXIpl{
+     color: aliceblue;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+ 
+   
+}
+nav .CredXIpl div {
+    /* position: relative; */
+}
+nav .CredXIpl div .new{
+    /* background-color: rgb(74, 125, 58);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   border-radius: 5px;
+    position: absolute;
+    left: 20%;
+    bottom: 115%;
+    font-size: .8rem;
+    width: 60%; */
+    /* right: 100%; */
+    
+ 
+    
+
+}
+
+
+.subInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    background-color: rgb(39, 39, 39);
+    width: 100vw;
+    height: 4rem;
+    font-size: 1.5rem;
+    gap: 10px;
+    /* color: aqua; */
+
+
+}
+
+
+/* ===============================================
+
+
+
+                  HEADING SECTION
+
+==================================================== */
+
+
+
+
+
+.heading-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    margin-top: 2rem;
+
+  
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.4rem;
+   
+    /* padding: 1rem; */
+   
+ 
+}
+
+.heading .reward{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: space-around;
+    /* padding: 1rem; */
+     
+}
+
+.heading h1{
+    font-size: 8rem;
+    font-weight: 100;
+   
+}
+
+.heading h2{
+    font-size: 2rem;
+}
+.btn{
+    width: 40vh;
+    
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    padding: 1rem;
+   
+
+
+}
+
+.btn a {
+    text-decoration:none;
+    color: black;
+    font-size: 1.5rem;
+
+
+
+}
+
+
+
+/* =======================================
+
+            Phone section
+
+===============================================
+ */
+
+#phones-img div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    margin-top: 4rem;
+
+
+
+}
+
+
+#phones-img div .firstleft-phone{
+    z-index: 98;
+    width: 7vw;
+   
+}
+
+#phones-img div .secondleft-phone{
+    z-index: 99;
+    width: 10vw;
+  
+
+}
+#phones-img div .center-phone{
+    z-index: 100;
+    width: 20vw;
+   /* margin-bottom: 1rem; */
+ 
+
+}
+#phones-img div .secondright-phone{ 
+    z-index: 99;
+    width: 7vw;
+    
+ 
+
+}
+#phones-img div .firstright-phone{
+    z-index: 98;
+    width: 8vw;
+  
+
+}
+
+
+
+/* ===============================================
+
+
+                   CHAIR SECTION
+
+==================================================*/
+.chair-section{
+    position: relative;
+    background-color: aliceblue;
+    width: 100vw;
+ 
+
+}
+.chair-section img{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.chair-text h2{
+    font-size: 6rem;
+}
+.chair-text h3{
+    font-size: 2rem;
+}
+.chair-text h4{
+    /* font-size: 2rem; */
+    line-height: 1.6rem;
+    margin-top: .3rem;
+    word-wrap: break-word;
+    font-size: 1.1rem;
+ 
+}
+.chair-text{
+    position: absolute;
+    top:5%;
+    left: 10%;
+
+    width: 90vw;
+height: 100vh;
+  
+    padding: 2rem;
+    bottom: -50%;
+    margin-top: 2rem;
+
+
+    
+   }
+
+   .chair-text .btn {
+       margin-top: 4rem;
+       /* color: black; */
+
+   }
+
+
+   /* ============================================
+ 
+                   Sponsred 
+
+   ================================================= */
+   .sponsored-section{
+       background-color: aliceblue;
+       width: 100vw;
+       height: 20vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+   }
+   .sponsored-section h2{
+       color: black;
+       margin-bottom: 1rem;
+   }
+   .sponsored-section img{
+    
+       width: 80vw;
+     
+
+   }
+
+
+
+   /* ===================================
+   
+   
+  Scrollbar change 
+   
+   
+   
+   */
+
+   .scrollbar-change{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 10px;
+       width: 100vw;
+       height: 90vh;
+     
+       justify-content: space-between;
+   }
+
+   .scrollbar-change h2{
+       font-size: 4rem;
+      
+   }
+   .change-text{
+       margin-left: 3rem;
+     
+
+   }
+
+   .scrollbar-change .frame{
+       width: 20vw;
+       height: auto;
+
+       /* height: 60vh; */
+       /* background-color: aqua; */
+       border: 5px solid rgb(83, 83, 83);
+       border-radius: 15px;
+       margin:3rem ;
+       box-shadow: 5px 5px #000000;
+       box-shadow: 0 0 5px 5px #e8e7e7;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: #505050;
+       margin-right: 5rem;
+       margin-top: 5rem;
+
+   
+
+
+   }
+
+   .frame img{
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+   }
+
+
+
+/* ===================================
+
+
+          BACKGGOUND SCROLL
+
+
+
+================================== */
+
+
+
+.background-image-scroll{
+    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/image-mock.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    
+
+}
+
+
+
+/* ===================================
+
+green screen
+====================================*/
+.scrollbar-change .green-para{
+
+width: 100%;
+
+word-wrap: break-word;
+margin-left: 10rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 1rem;
+
+}
+.scrollbar-change .green-para h3{
+    line-height: 2rem;
+    font-size: 1rem;
+
+    word-wrap: break-word;
+   
+ 
+
+}
+
+.green-heading{
+    margin-left: 2rem;
+}
+
+.green-screen{
+    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg.jpg");
+    background-size: cover;
+    word-wrap: break-word;
+
+
+
+}
+
+
+
+
+/* =============================
+
+
+
+
+App icon
+
+
+
+===============================*/
+
+
+.app-icon{
+    display: flex;
+    justify-content: center;
+ align-items: center;
+ gap: 8rem;
+ background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png");
+ background-size: cover;
+
+
+}
+.app-icon span{
+    font-size: 6rem;
+}
+.app-icon h2{
+    font-size: 3rem;
+ 
+}
+
+.app-icon .rating{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.app-icon img{
+    width: 10rem;
+}
+
+
+.btn-app{
+    width: 15rem;
+    height: 5rem;
+    
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 1rem;
+    
+}
+
+.btn-app a {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #000000;
+    margin: .4rem;
+}
+
+.btn-app img {
+  width: 2rem;
+}
+
+
+
+
+/* ============================
+
+         
+
+
+
+            
+         medai query
+
+
+
+==============================*/
+
+@media(max-width:768px){
+    html{
+
+        background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png");
+        background-size: cover;
+    }
+
+    .header{
+        max-width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+.heading-section{
+  
+
+  
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+   
+    /* padding: 1rem; */
+
+   width: 100vw;
+   /* height: 523px; */
+   margin-top: 2rem;
+   margin-bottom: 0;
+   /* color: aqua; */
+ 
+ 
+}
+
+.heading .reward{
+   
+
+  
+
+    /* padding: 1rem; */
+     
+}
+
+.heading h1{
+    font-size: 2rem;
+
+    font-weight: 900;
+   
+}
+
+.heading h2{
+    font-size: 1rem;
+    /* word-break: break-word; */
+    /* display: inline-block; */
+    width: 300px;
+    text-align: center;
+ 
+ 
+ 
+
+}
+.btn{
+    width: 60vw;
+    
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+ 
+    border-radius: 2rem;
+    padding: 1rem;
+   
+
+
+}
+
+.btn a {
+    text-decoration:none;
+    color: black;
+    font-size: 1.5rem;
+
+
+
+}
+
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+/* flex-direction: column; */
+/* background-color: rgb(39, 39, 39); */
+/* width: 100vw; */
+/* height: 4rem; */
+/* font-size: 1.5rem; */
+/* gap: 10px; */
+
+
+.subInfo{
+
+    width: 100vw;
+
+/* display: inline-block; */
+font-size: 1rem;
+display: flex;
+flex-direction: column;
+flex-direction: start;
+justify-content: center;
+flex-wrap: wrap;
+
+
+}
+
+
+
+
+header{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* margin: 4rem; */
+    
+font-size: .8rem;
+}
+
+nav li{
+    list-style: none;
+ 
+}
+nav .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* gap: 3rem; */
+
+
+
+}
+
+nav .logo .iplLogo{
+  width: 24%;
+
+
+    
+}
+.credlogo{
+    width: 53%;
+    height: auto;
+}
+
+header{
+ 
+
+}
+
+nav{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* justify-content: space-around; */
+    /* width:479px;
+    margin: 0px; */
+    margin: 0;
+    justify-content: flex-start;
+
+
+}
+
+
+
+ nav .CredXIpl{
+     color: aliceblue;
+     /* display: flex; */
+     /* flex-direction: row; */
+     /* justify-content: center; */
+     /* align-items: center; */
+    /* justify-content: space-between; */
+    /* gap: 3rem; */
+ 
+   
+}
+nav .CredXIpl div {
+    position: relative;
+}
+nav .CredXIpl div .new{
+    background-color: rgb(74, 125, 58);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   border-radius: 5px;
+    position: absolute;
+    left: 20%;
+    bottom: 115%;
+    font-size: .8rem;
+    width: 60%;
+    /* right: 100%; */
+    
+ 
+    
+
+}
+
+
+
+
+
+
+section #phone-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 10rem; */
+}
+
+
+#phones-img div{
+/*     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+    position: relative; 
+    /* margin-top: rem; */
+   width: 100%;
+
+
+
+
+
+}
+#phones-img div img{
+    
+width: 100%;
+
+
+
+
+}
+
+
+#phones-img div .firstleft-phone{
+    z-index: 98;
+    width: 7vw;
+   
+}
+
+#phones-img div .secondleft-phone{
+    z-index: 99;
+    width: 10vw;
+  
+
+}
+#phones-img div .center-phone{
+    z-index: 100;
+    width: 20vw;
+   /* margin-bottom: 1rem; */
+ 
+
+}
+#phones-img div .secondright-phone{ 
+    z-index: 99;
+    width: 7vw;
+    
+ 
+
+}
+#phones-img div .firstright-phone{
+    z-index: 98;
+    width: 8vw;
+  
+
+}
+
+
+
+.chair-section{
+ width: 100vw;
+ height: 50vh;
+
+
+
+
+
+}
+.chair-section img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* display: none; */
+
+}
+
+.chair-text h2{
+    font-size: 2rem;
+}
+.chair-text h3{
+    font-size: 1.3rem;
+}
+.chair-text h4{
+    /* font-size: 2rem; */
+    line-height: 1rem;
+    margin-top: .3rem;
+    word-wrap: break-word;
+    font-size: .8rem;
+    
+ 
+}
+.chair-text{
+
+    max-width: 90vw;
+    height: 35vh;
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    padding: 2rem;
+    right: 10%;
+ 
+    overflow-wrap: break-word;
+    display: inline-block;
+    /* background-color: #000000; */
+
+ /* background-color: #000000; */
+margin: 0;
+padding: 0;
+  
+
+    /* bottom: -50%; */
+    /* margin-top: 2rem; */
+
+
+    
+   }
+
+   .chair-text .btn {
+       margin-top: 4rem;
+       /* color: black; */
+
+   }
+
+
+   nav .CredXIpl div {
+    /* position: relative; */
+}
+nav .CredXIpl div .new{
+    /* background-color: rgb(74, 125, 58);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   border-radius: 5px;
+    position: absolute;
+    left: 20%;
+    bottom: 115%;
+    font-size: .8rem;
+    width: 60%; */
+    /* right: 100%; */
+    
+ 
+    
+
+}
+
+
+html{
+    margin: 0;
+    padding: 0;
+    background-color: #e8e7e7;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    
+}
+
+
+
+.scrollbar-change .green-para{
+
+    width: 100vw;
+    height: 50vh;
+    
+    word-wrap: break-word;
+    margin-left: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .2rem;
+    margin-right: 2rem;
+
+
+    
+    }
+    .scrollbar-change .green-para h3{
+        line-height: .3rem;
+        font-size: .3rem;
+    
+        word-wrap: break-word;
+       
+     
+    
+    }
+    
+    .green-heading{
+        margin-left:1rem;
+    }
+    
+    .green-screen{
+        background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg.jpg");
+        background-size: cover;
+        word-wrap: break-word;
+
+        /* background-size: 500px 300px; */
+        /* display: none; */
+    
+    
+    
+    }
+
+
+    app-icon{
+        display: flex;
+        justify-content: center;
+     align-items: center;
+     /* gap: .1rem; */
+     background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png");
+     background-size: cover;
+  
+    
+    }
+    .app-icon span{
+        font-size: 2rem;
+        overflow-x: hidden;
+    }
+    .app-icon h2{
+        font-size: 2rem;
+     
+    }
+    
+    .app-icon .rating{
+        display: flex;
+        flex-direction: column;
+        gap: .3rem;
+    }
+    
+    .app-icon img{
+        width: 1rem;
+    }
+    
+    
+    .btn-app{
+        width: 8rem;
+        height: 3rem;
+        
+        background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2rem;
+        /* padding: 1rem; */
+        
+    }
+    
+    .btn-app a {
+        text-decoration: none;
+        font-style: normal;
+        font-size: .5rem;
+        color: #000000;
+        margin: .4rem;
+    }
+    
+    .btn-app img {
+      /* width: 2rem; */
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .scrollbar-change{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100vw;
+        height: 50vh;
+      
+        justify-content: space-between;
+    }
+ 
+    .scrollbar-change h2{
+        font-size: 2rem;
+       
+    }
+    .change-text{
+        margin-left: 3rem;
+      
+ 
+    }
+ 
+    .scrollbar-change .frame{
+        width: 30vw;
+        height: auto;
+ 
+        /* height: 60vh; */
+        /* background-color: aqua; */
+        border: 5px solid rgb(83, 83, 83);
+        border-radius: 15px;
+        margin:3rem ;
+        box-shadow: 5px 5px #000000;
+        box-shadow: 0 0 5px 2px #e8e7e7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #505050;
+        margin-right: 5rem;
+        margin-top: 5rem;
+ 
+    
+ 
+ 
+    }
+ 
+    .frame img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+ 
+ 
+ 
+ /* ===================================
+ 
+ 
+           BACKGGOUND SCROLL
+ 
+ 
+ 
+ ================================== */
+ 
+ 
+ 
+ .background-image-scroll{
+     background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/image-mock.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     height: 500px;
+     
+ 
+ }
+
+
+
+
+
+}
+
+/* =======================================
+
+            Phone section
+
+===============================================
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
